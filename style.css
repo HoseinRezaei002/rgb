@@ -1,0 +1,36 @@
+#suprHeroBox {
+    background-image: url(img_forest.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: rgb(252, 241, 241);
+    height: 800px;
+    background-position: top;flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+h2 {
+    margin-bottom: 20px;
+    padding: 30px;
+    background-color: rgba(156, 152, 152, 0.5);
+    color: rgb(228, 228, 228);
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 7px 16px;
+    background-color: rgb(22, 172, 109);
+
+    border-radius: 5px;
+    color: rgb(224, 217, 217);
+
+}
+
+a:hover {
+    background-color: rgb(59, 187, 149);
+    color: rgb(255, 223, 223);
+    box-shadow: 5px 5px 5px rgb(36, 36, 36);
+}
